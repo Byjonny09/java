@@ -1,9 +1,19 @@
-<script>
-	var n1,n2,vsuma;
+<html>
+  <head>
+    <title>Mi primer codigo JavaScript</title>
+  </head>
+  <body>
+    <h1>Mi primer código JavaScript</h1>
+
+    <script>
+      var n1,n2,vsuma;
 	
 	n1 = parseInt(prompt('Ingresar numero 1'));
 	n2 = parseInt(prompt('Ingresar numero 2'));
 	
 	vsuma = n1 + n2;
 	document.write('La suma es '+vsuma);
-</script>
+    </script>
+
+  </body>
+</html>
